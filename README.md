@@ -4,7 +4,7 @@ The NASA Spaceapps challene 2025 - BloomWatch: An Earth Observation Application 
 Generative AI was used in the creation of scripts throughout the project to enhance development speed.
 ## Structure
 ### /data-map/
-Python (numpy, matplotlib) generated graphs, stats, and maps for tracking historical data.
+Python (numpy, matplotlib) generated graphs, stats, and maps for tracking historical NASA land data.
 #### data/
 (Not tracked by git) - Downloaded data from NASA
 #### outputs/
@@ -24,4 +24,6 @@ Link to Build Download:
 <img src="Demo.gif" width="512">
 
 ### /machine-learning/
-ML models for predicting future blooms, and other API usage for mapping existing blooms
+ML models for predicting future blooms, and other API usage for mapping existing blooms. Made a BloomWatch california site with real NASA data.
+
+[Link to Site](https://d-guh.github.io/nasa-spaceapps-2025/bloom_viewer.html)

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-main.py - compute bloom habitability (old-style behavior)
-- concat monthly GLDAS files (time dimension)
+main.py - compute bloom habitability
+- concat monthly GLDAS files
 - convert units: soil -> volumetric (m3/m3), precip -> mm/day, temp -> °F
-- clamp-and-normalize each variable using sensible min/max ranges (like the older script)
-- combine using weights from config.PARMS
+- clamp-and-normalize each variable using sensible min/max ranges
+- combine using weights from config.PARAMS
 """
 
 import os

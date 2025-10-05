@@ -1,5 +1,5 @@
 # NASA Spaceapps 2025
-The NASA Spaceapps challene 2025 - BloomWatch: An Earth Observation Application for Global Flowering Phenology
+The NASA Spaceapps challenge 2025 - BloomWatch: An Earth Observation Application for Global Flowering Phenology
 # Generative AI Statement
 Generative AI was used in the creation of scripts throughout the project to enhance development speed.
 ## Structure

@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomWatch California - Bloom Detections</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            overflow: hidden;
+        }
+        
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .control-panel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+            max-width: 400px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        .control-panel h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+        
+        .stats-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        
+        .stats-header h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .stats-header p {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-box {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 4px;
+            text-align: center;
+            border-left: 4px solid #3498db;
+        }
+        
+        .stat-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+        
+        .stat-label {
+            font-size: 11px;
+            color: #7f8c8d;
+            margin-top: 4px;
+        }
+        
+        .control-section {
+            margin-bottom: 20px;
+        }
+        
+        .control-section label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 13px;
+        }
+        
+        .control-section select,
+        .control-section input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .bloom-list {
+            max-height: 400px;
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+        
+        .bloom-item {
+            padding: 10px;
+            margin-bottom: 8px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-left: 4px solid #3498db;
+        }
+        
+        .bloom-item:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+        
+        .bloom-item.confidence-high { border-left-color: #2ecc71; }
+        .bloom-item.confidence-medium { border-left-color: #f39c12; }
+        .bloom-item.confidence-low { border-left-color: #e74c3c; }
+        
+        .bloom-item strong {
+            display: block;
+            color: #2c3e50;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        
+        .bloom-item small {
+            color: #7f8c8d;
+            font-size: 11px;
+        }
+        
+        .bloom-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+            font-size: 11px;
+        }
+        
+        .confidence-badge {
+            background: #e8f4f8;
+            color: #2980b9;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        
+        .legend {
+            position: absolute;
+            bottom: 30px;
+            right: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+        
+        .legend h4 {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #2c3e50;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .info-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-size: 12px;
+            color: #856404;
+        }
+        
+        .timeline-chart {
+            margin-top: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .year-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .year-label {
+            width: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        .bar-container {
+            flex: 1;
+            height: 20px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #9b59b6);
+            transition: width 0.5s;
+        }
+        
+        .bar-count {
+            width: 40px;
+            text-align: right;
+            font-size: 12px;
+            color: #555;
+            margin-left: 8px;
+        }
+        
+        .heatmap-toggle {
+            margin-top: 10px;
+        }
+        
+        .heatmap-toggle label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .heatmap-toggle input[type="checkbox"] {
+            width: auto;
+            margin-right: 8px;
+        }
+
+        .date-list {
+            max-height: 150px;
+            overflow-y: auto;
+            margin-top: 5px;
+            padding: 5px;
+            background: #f8f9fa;
+            border-radius: 3px;
+        }
+
+        .date-badge {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 3px 8px;
+            margin: 2px;
+            border-radius: 3px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="control-panel">
+        <h2>BloomWatch California</h2>
+        
+        <div class="stats-header">
+            <h3>Total Locations</h3>
+            <p id="total-locations">Loading...</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-value" id="stat-detections">-</div>
+                <div class="stat-label">Total Detections</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value" id="stat-regions">-</div>
+                <div class="stat-label">Regions</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value" id="stat-high-conf">-</div>
+                <div class="stat-label">High Confidence</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value" id="stat-avg-conf">-</div>
+                <div class="stat-label">Avg Confidence</div>
+            </div>
+        </div>
+        
+        <div class="control-section">
+            <label>Filter by Region</label>
+            <select id="regionFilter" onchange="filterBlooms()">
+                <option value="all">All Regions</option>
+            </select>
+        </div>
+        
+        <div class="control-section">
+            <label>Filter by Confidence</label>
+            <select id="confidenceFilter" onchange="filterBlooms()">
+                <option value="all">All Confidence Levels</option>
+                <option value="high">High (>0.05)</option>
+                <option value="medium">Medium (0.03-0.05)</option>
+                <option value="low">Low (<0.03)</option>
+            </select>
+        </div>
+        
+        <div class="control-section heatmap-toggle">
+            <label>
+                <input type="checkbox" id="heatmapToggle" onchange="toggleHeatmap()">
+                Show Detection Heatmap
+            </label>
+        </div>
+        
+        <div class="control-section">
+            <label>Detections by Region</label>
+            <div id="regionChart" class="timeline-chart"></div>
+        </div>
+        
+        <div class="control-section">
+            <label>Detection Locations (<span id="location-count">0</span>)</label>
+            <div id="bloomList" class="bloom-list"></div>
+        </div>
+        
+        <div class="info-box">
+            <strong>Data Source:</strong> Historical bloom detections from NASA MODIS satellite data. Each location shows detected bloom dates with confidence scores.
+        </div>
+    </div>
+    
+    <div class="legend">
+        <h4>Confidence Level</h4>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #2ecc71;"></div>
+            <span>High (>0.05)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #f39c12;"></div>
+            <span>Medium (0.03-0.05)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #e74c3c;"></div>
+            <span>Low (<0.03)</span>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/Leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script>
+        let map, satelliteLayer, markerCluster, heatmapLayer;
+        let allBlooms = [];
+        let filteredBlooms = [];
+        
+        function initMap() {
+            map = L.map('map', {
+                center: [37.0, -119.5],
+                zoom: 6
+            });
+            
+            satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'Esri',
+                maxZoom: 18
+            }).addTo(map);
+            
+            loadDetections();
+        }
+        
+        async function loadDetections() {
+            try {
+                const response = await fetch('california_bloom_detections.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                allBlooms = await response.json();
+                filteredBlooms = allBlooms;
+                
+                updateStats();
+                populateFilters();
+                updateMarkers();
+                updateRegionChart();
+                
+            } catch (error) {
+                console.error('Error loading detections:', error);
+                document.getElementById('total-locations').textContent = 'File not found';
+                document.querySelector('.control-panel').innerHTML += `
+                    <div style="background: #fee; border: 1px solid #c00; padding: 15px; border-radius: 4px; margin-top: 20px;">
+                        <strong>Error Loading Data</strong>
+                        <p style="margin: 10px 0 0 0; font-size: 13px;">
+                            Please ensure <code>california_bloom_detections.json</code> is in the same directory as this HTML file.
+                        </p>
+                        <button onclick="document.getElementById('fileInput').click()" 
+                                style="margin-top: 10px; padding: 8px 16px; background: #c00; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                            Load JSON File
+                        </button>
+                        <input type="file" id="fileInput" accept=".json" style="display: none;" onchange="handleFileUpload(event)">
+                    </div>
+                `;
+            }
+        }
+        
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        allBlooms = JSON.parse(e.target.result);
+                        filteredBlooms = allBlooms;
+                        
+                        document.querySelector('.control-panel').innerHTML = document.querySelector('.control-panel').innerHTML.split('<div style="background: #fee;')[0];
+                        
+                        updateStats();
+                        populateFilters();
+                        updateMarkers();
+                        updateRegionChart();
+                    } catch (error) {
+                        alert('Error parsing JSON file: ' + error.message);
+                    }
+                };
+                reader.readAsText(file);
+            }
+        }
+        
+        function updateStats() {
+            document.getElementById('total-locations').textContent = allBlooms.length;
+            
+            const totalDetections = allBlooms.reduce((sum, b) => sum + b.dates.length, 0);
+            document.getElementById('stat-detections').textContent = totalDetections;
+            
+            const regions = new Set(allBlooms.map(b => getRegion(b.latitude)));
+            document.getElementById('stat-regions').textContent = regions.size;
+            
+            const highConf = allBlooms.filter(b => b.confidence > 0.05).length;
+            document.getElementById('stat-high-conf').textContent = highConf;
+            
+            const avgConf = (allBlooms.reduce((sum, b) => sum + b.confidence, 0) / allBlooms.length * 100).toFixed(1);
+            document.getElementById('stat-avg-conf').textContent = avgConf + '%';
+        }
+        
+        function populateFilters() {
+            const regionSelect = document.getElementById('regionFilter');
+            const regions = [...new Set(allBlooms.map(b => getRegion(b.latitude)))].sort();
+            
+            regions.forEach(region => {
+                const count = allBlooms.filter(b => getRegion(b.latitude) === region).length;
+                const option = document.createElement('option');
+                option.value = region;
+                option.textContent = `${region} (${count})`;
+                regionSelect.appendChild(option);
+            });
+        }
+        
+        function getRegion(lat) {
+            if (lat < 34.5) return "Southern California";
+            if (lat < 36.5) return "Central Coast";
+            if (lat < 39.0) return "Central Valley";
+            return "Northern California";
+        }
+        
+        function getConfidenceLevel(conf) {
+            if (conf > 0.05) return "high";
+            if (conf >= 0.03) return "medium";
+            return "low";
+        }
+        
+        function filterBlooms() {
+            const region = document.getElementById('regionFilter').value;
+            const confidence = document.getElementById('confidenceFilter').value;
+            
+            filteredBlooms = allBlooms.filter(bloom => {
+                const bloomRegion = getRegion(bloom.latitude);
+                const confLevel = getConfidenceLevel(bloom.confidence);
+                
+                if (region !== 'all' && bloomRegion !== region) return false;
+                if (confidence !== 'all' && confLevel !== confidence) return false;
+                return true;
+            });
+            
+            updateMarkers();
+            updateBloomList();
+        }
+        
+        function updateMarkers() {
+            if (markerCluster) {
+                map.removeLayer(markerCluster);
+            }
+            
+            markerCluster = L.markerClusterGroup({
+                maxClusterRadius: 50,
+                spiderfyOnMaxZoom: true
+            });
+            
+            filteredBlooms.forEach(bloom => {
+                const confLevel = getConfidenceLevel(bloom.confidence);
+                const color = getConfidenceColor(confLevel);
+                
+                const marker = L.circleMarker([bloom.latitude, bloom.longitude], {
+                    radius: 8,
+                    fillColor: color,
+                    color: '#fff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+                
+                const dateList = bloom.dates.slice(0, 10).map(d => 
+                    `<span class="date-badge">${d}</span>`
+                ).join('');
+                
+                const moreText = bloom.dates.length > 10 ? 
+                    `<div style="margin-top: 5px; font-size: 11px; color: #666;">+ ${bloom.dates.length - 10} more dates</div>` : '';
+                
+                const popupContent = `
+                    <div style="min-width: 250px;">
+                        <h3 style="margin: 0 0 10px 0; color: #2c3e50;">Bloom Detection Location</h3>
+                        <p style="margin: 5px 0;"><strong>Location:</strong> ${bloom.location}</p>
+                        <p style="margin: 5px 0;"><strong>Region:</strong> ${getRegion(bloom.latitude)}</p>
+                        <p style="margin: 5px 0;"><strong>Confidence:</strong> 
+                            <span style="color: ${color}; font-weight: bold;">${(bloom.confidence * 100).toFixed(2)}%</span>
+                        </p>
+                        <p style="margin: 5px 0;"><strong>Total Detections:</strong> ${bloom.dates.length}</p>
+                        <div style="margin-top: 8px;">
+                            <strong>Recent Dates:</strong>
+                            <div style="margin-top: 5px;">
+                                ${dateList}
+                            </div>
+                            ${moreText}
+                        </div>
+                    </div>
+                `;
+                
+                marker.bindPopup(popupContent);
+                markerCluster.addLayer(marker);
+            });
+            
+            map.addLayer(markerCluster);
+            updateBloomList();
+        }
+        
+        function updateBloomList() {
+            const listEl = document.getElementById('bloomList');
+            document.getElementById('location-count').textContent = filteredBlooms.length;
+            
+            const sorted = [...filteredBlooms].sort((a, b) => b.confidence - a.confidence);
+            
+            listEl.innerHTML = sorted.slice(0, 100).map(bloom => {
+                const confLevel = getConfidenceLevel(bloom.confidence);
+                const region = getRegion(bloom.latitude);
+                
+                return `
+                <div class="bloom-item confidence-${confLevel}" 
+                     onclick="jumpToBloom(${bloom.latitude}, ${bloom.longitude})">
+                    <strong>${bloom.location}</strong>
+                    <small>${region} • ${bloom.dates.length} detections</small>
+                    <div class="bloom-meta">
+                        <span style="color: ${getConfidenceColor(confLevel)}; font-weight: 600;">
+                            ${(bloom.confidence * 100).toFixed(2)}%
+                        </span>
+                        <span class="confidence-badge">${confLevel.toUpperCase()}</span>
+                    </div>
+                </div>
+            `}).join('');
+            
+            if (sorted.length > 100) {
+                listEl.innerHTML += `<div style="text-align: center; padding: 10px; color: #7f8c8d; font-size: 12px;">
+                    Showing first 100 of ${sorted.length} locations
+                </div>`;
+            }
+        }
+        
+        function updateRegionChart() {
+            const regionCounts = {};
+            allBlooms.forEach(bloom => {
+                const region = getRegion(bloom.latitude);
+                regionCounts[region] = (regionCounts[region] || 0) + 1;
+            });
+            
+            const maxCount = Math.max(...Object.values(regionCounts));
+            
+            const chartEl = document.getElementById('regionChart');
+            chartEl.innerHTML = Object.keys(regionCounts).sort().map(region => `
+                <div class="year-bar">
+                    <div class="year-label" style="width: 100px; font-size: 10px;">${region.split(' ')[0]}</div>
+                    <div class="bar-container">
+                        <div class="bar-fill" style="width: ${(regionCounts[region] / maxCount * 100)}%"></div>
+                    </div>
+                    <div class="bar-count">${regionCounts[region]}</div>
+                </div>
+            `).join('');
+        }
+        
+        function toggleHeatmap() {
+            const enabled = document.getElementById('heatmapToggle').checked;
+            
+            if (enabled) {
+                if (heatmapLayer) {
+                    map.removeLayer(heatmapLayer);
+                }
+                
+                const heatData = filteredBlooms.map(bloom => [
+                    bloom.latitude,
+                    bloom.longitude,
+                    bloom.confidence * 10
+                ]);
+                
+                heatmapLayer = L.heatLayer(heatData, {
+                    radius: 25,
+                    blur: 15,
+                    maxZoom: 10,
+                    gradient: {
+                        0.0: '#e74c3c',
+                        0.5: '#f39c12',
+                        1.0: '#2ecc71'
+                    }
+                }).addTo(map);
+                
+                if (markerCluster) {
+                    map.removeLayer(markerCluster);
+                }
+            } else {
+                if (heatmapLayer) {
+                    map.removeLayer(heatmapLayer);
+                    heatmapLayer = null;
+                }
+                updateMarkers();
+            }
+        }
+        
+        function jumpToBloom(lat, lon) {
+            map.flyTo([lat, lon], 12, {
+                duration: 1.5
+            });
+            
+            const highlight = L.circleMarker([lat, lon], {
+                radius: 20,
+                fillColor: '#ffff00',
+                color: '#fff',
+                weight: 3,
+                opacity: 1,
+                fillOpacity: 0.4
+            }).addTo(map);
+            
+            setTimeout(() => map.removeLayer(highlight), 3000);
+        }
+        
+        function getConfidenceColor(level) {
+            const colors = {
+                'high': '#2ecc71',
+                'medium': '#f39c12',
+                'low': '#e74c3c'
+            };
+            return colors[level] || '#3498db';
+        }
+        
+        initMap();
+    </script>
+</body>
+</html>

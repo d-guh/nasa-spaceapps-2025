@@ -14,7 +14,7 @@ Python (numpy, matplotlib) generated graphs, stats, and maps for tracking histor
 iOS moble app made in Swift for interacting with the Unity view and other features.
 
 ### /unity-globe/
-Unity project for visualizng the data maps. Mapped over time.
+Unity project for visualizing the data maps. Mapped over time.
 
 Link to Build Download:
 https://drive.google.com/file/d/1lWNwJRVARqSma0tV0p9xSIEqrFammwpT/view?usp=sharing

@@ -19,7 +19,7 @@ iOS moble app made in Swift for interacting with the Unity view and other featur
 Unity project for visualizing the data maps. Mapped over time.
 
 Link to Build Download:
-[Demo Build](https://drive.google.com/file/d/1lWNwJRVARqSma0tV0p9xSIEqrFammwpT/view?usp=sharing)
+[Latest Demo Build](https://github.com/d-guh/nasa-spaceapps-2025/releases/tag/latest)
 
 <img src="Demo.gif" width="512">
 

@@ -16,5 +16,7 @@ iOS moble app made in Swift for interacting with the Unity view and other featur
 ### /unity-globe/
 Unity project for visualizng the data maps. Mapped over time.
 
+<img src="Demo.gif" width="512">
+
 ### /machine-learning/
 ML models for predicting future blooms, and other API usage for mapping existing blooms

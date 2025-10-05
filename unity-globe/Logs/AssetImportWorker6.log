@@ -1,0 +1,583 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-greg" at "2025-10-05T07:04:09.1117903Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-05T07:04:09Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/greg/NASA Space Apps
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+53183
+-licensingIpc
+LicenseClient-greg
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/greg/NASA Space Apps
+C:/Users/greg/NASA Space Apps
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5548]  Target information:
+
+Player connection [5548]  * "[IP] 172.27.255.121 [Port] 0 [Flags] 2 [Guid] 1126247993 [EditorId] 1126247993 [Version] 1048832 [Id] WindowsEditor(7,CORVETTE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18080, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              ac5d96657e934c5bb938e6168203438b
+  Correlation Id:          329f0b2d4233c3698cbcd98a456f09e0
+  External correlation Id: 2272678529457330557
+  Machine Id:              biwbn/0H+1P1q/wELeKouJFBH40=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-greg" (connect: 0.00s, validation: 0.00s, handshake: 0.23s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-greg-notifications" at "2025-10-05T07:04:09.3536557Z"
+[Licensing::Module] Licensing Background thread has ended after 0.24s
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474347458251-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 135.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/greg/NASA Space Apps/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.8088
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.591677 seconds.
+- Loaded All Assemblies, in 12.810 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 13304ms
+	BeginReloadAssembly (10360ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (471ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (626ms)
+	LoadAllAssembliesAndSetupDomain (1341ms)
+		LoadAssemblies (10379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1313ms)
+			TypeCache.Refresh (1312ms)
+				TypeCache.ScanAssembly (1084ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (277ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  7.450 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA Space Apps
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 8333ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (7248ms)
+		LoadAssemblies (6918ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (400ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (345ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (887ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6489 unused Assets / (4.4 MB). Loaded Objects now: 7204.
+Memory consumption went from 141.5 MB to 137.1 MB.
+Total: 7.428300 ms (FindLiveObjects: 0.642800 ms CreateObjectMapping: 0.598800 ms MarkObjects: 4.167200 ms  DeleteObjects: 2.018800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 776.230737 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-07-01.png
+  artifactKey: Guid(1b3f21fdc6041d449bb92515df669707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-07-01.png using Guid(1b3f21fdc6041d449bb92515df669707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf9e7e3320d93971c1ac4d5b73ff726e') in 0.0786518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-02-01.png
+  artifactKey: Guid(d734a7f61deb2944ba83494a08bbccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-02-01.png using Guid(d734a7f61deb2944ba83494a08bbccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17c501bd9e1f436918796b4e5185ba5a') in 0.0224824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-06-01.png
+  artifactKey: Guid(4ea554196afb2f14b926e384e7793684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-06-01.png using Guid(4ea554196afb2f14b926e384e7793684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '850958dad0b3c8d42e589043cc43295e') in 0.0233716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-06-01.png
+  artifactKey: Guid(d34e827a52f782746b2cc230f6c2a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-06-01.png using Guid(d34e827a52f782746b2cc230f6c2a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f45ec9e3616b1ac2d2164fbc9d82b03a') in 0.0356856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-09-01.png
+  artifactKey: Guid(2740c4a67ccebe548bbff34f80c1f978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-09-01.png using Guid(2740c4a67ccebe548bbff34f80c1f978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5199b7bf6ed639d3e87e32590061f417') in 0.029875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-02-01.png
+  artifactKey: Guid(6ba8f1070eca10344aaf10265ab38de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-02-01.png using Guid(6ba8f1070eca10344aaf10265ab38de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01ed487811c5c5fc4dc8d11b44e0c72b') in 0.0298872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-10-01.png
+  artifactKey: Guid(032fb988c67446348a206512b3d20ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-10-01.png using Guid(032fb988c67446348a206512b3d20ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7db26e19d40e2dfea8d0c8ad68644bd8') in 0.0369045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521087 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-11-01.png
+  artifactKey: Guid(009a26bd690d7cf4d856e02eaf0e7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-11-01.png using Guid(009a26bd690d7cf4d856e02eaf0e7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bf3089a707b31f43292101b801f0df1') in 0.0502511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-07-01.png
+  artifactKey: Guid(9aa24acbbddf8634eb8f13ea8a36f4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-07-01.png using Guid(9aa24acbbddf8634eb8f13ea8a36f4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa195f721c0ddb53cbef2583b2a24e48') in 0.0428043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-03-01.png
+  artifactKey: Guid(975a26b1598e2fe41ac4f0a1d391f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-03-01.png using Guid(975a26b1598e2fe41ac4f0a1d391f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30c7406a4e9c5801974462c075525a26') in 0.0420304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-02-01.png
+  artifactKey: Guid(972d135386c6cc84497aba359920a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-02-01.png using Guid(972d135386c6cc84497aba359920a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61fb63bd9d852aa3a7193ca55e9705d0') in 0.0368757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-06-01.png
+  artifactKey: Guid(01ccb77f4f9ddc043b35b7779d2ed6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-06-01.png using Guid(01ccb77f4f9ddc043b35b7779d2ed6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '024c256f8d57da4a8435b8a160160b92') in 0.0441552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-09-01.png
+  artifactKey: Guid(20c9901fc3e159f498425e61b568350e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-09-01.png using Guid(20c9901fc3e159f498425e61b568350e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a43580b63e5f727a3d231abe0275ea3d') in 0.0420423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-02-01.png
+  artifactKey: Guid(beab308efcc726b44808ea6b660b0bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-02-01.png using Guid(beab308efcc726b44808ea6b660b0bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e70ece1e497a4ccb9d7cd4a7921422') in 0.0440347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-12-01.png
+  artifactKey: Guid(fd8c692c2deb967489604cdd42eb0c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-12-01.png using Guid(fd8c692c2deb967489604cdd42eb0c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfa1b1ad66927b600376a2debbe960d0') in 0.0289128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-06-01.png
+  artifactKey: Guid(9621592e5a6a3e849b73c1b4082ed57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-06-01.png using Guid(9621592e5a6a3e849b73c1b4082ed57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c5f53d75792612a5d087553307d6ff6') in 0.0277226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-08-01.png
+  artifactKey: Guid(f0bed724b27a7c34db38aba49e043b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-08-01.png using Guid(f0bed724b27a7c34db38aba49e043b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97462cedecdaf667e1979a401b946b5e') in 0.0271388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-11-01.png
+  artifactKey: Guid(cdba1cd816ecea84e868f05d39716ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-11-01.png using Guid(cdba1cd816ecea84e868f05d39716ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764338c07c3226cd54712b76ecbb0414') in 0.0231177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-06-01.png
+  artifactKey: Guid(e43bb828494d8584098d85eff8487a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-06-01.png using Guid(e43bb828494d8584098d85eff8487a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb924168ca08ff3e24137ae16c6dc4c3') in 0.0228074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-11-01.png
+  artifactKey: Guid(03dd4adfae3805c44877618898c11d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-11-01.png using Guid(03dd4adfae3805c44877618898c11d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e13701c96244264cd3091dc215402d4f') in 0.0213106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-06-01.png
+  artifactKey: Guid(60e75cd72b1a0c04d95404a69eeb7a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-06-01.png using Guid(60e75cd72b1a0c04d95404a69eeb7a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f38c10e758f830b120c8c0a67d9934b5') in 0.0253066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-08-01.png
+  artifactKey: Guid(f704390876880fc478dce228b1068a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-08-01.png using Guid(f704390876880fc478dce228b1068a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87c1865473d35449c0b73e41613dd34') in 0.0280997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-01-01.png
+  artifactKey: Guid(aa9a1fdf533d7bc41a28908e2c11e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-01-01.png using Guid(aa9a1fdf533d7bc41a28908e2c11e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd773e519e8694b951842518a397bf80b') in 0.0225642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-02-01.png
+  artifactKey: Guid(f9d241b934d5c3346914da65d9a5c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-02-01.png using Guid(f9d241b934d5c3346914da65d9a5c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '662909a459a1ab26daded534dca1ac9a') in 0.0255869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-04-01.png
+  artifactKey: Guid(1a12f93dea02e0a44a2b008f1142eb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-04-01.png using Guid(1a12f93dea02e0a44a2b008f1142eb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b48710d17cce3b2af84101de0b6361d8') in 0.0256075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-03-01.png
+  artifactKey: Guid(dc58f206d82d2e249a779998375c3ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-03-01.png using Guid(dc58f206d82d2e249a779998375c3ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beb7cc8008d0e1a08b8b7e9e517ab7c9') in 0.0307947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-12-01.png
+  artifactKey: Guid(c2987fe237d4f8f409d4877bb4a47343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-12-01.png using Guid(c2987fe237d4f8f409d4877bb4a47343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1ac013f9a72f3921f908a014221b29a') in 0.0275794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-03-01.png
+  artifactKey: Guid(d6f54950dd795024aa4c81a5596cc12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-03-01.png using Guid(d6f54950dd795024aa4c81a5596cc12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2f6d548b3e814ffa21372c731582382') in 0.0248746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-05-01.png
+  artifactKey: Guid(c6e284e526ac63046aad0a381c1bbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-05-01.png using Guid(c6e284e526ac63046aad0a381c1bbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f152ff3ffb0917438be95a3f8d4ad72') in 0.0266229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-07-01.png
+  artifactKey: Guid(ae0ec14bc4aac88409c49d5dd9630c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-07-01.png using Guid(ae0ec14bc4aac88409c49d5dd9630c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d0f1a8cdf5d8afcaeb2698803916339') in 0.027024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-04-01.png
+  artifactKey: Guid(2f4169b5eb2b843409bffc8fc0359dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-04-01.png using Guid(2f4169b5eb2b843409bffc8fc0359dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '507feaee4b397d617df0411d5397a121') in 0.0262047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-12-01.png
+  artifactKey: Guid(7a6ffe7d2664b3449a5e85678f3e84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-12-01.png using Guid(7a6ffe7d2664b3449a5e85678f3e84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aafdad7c1bd0f54f8e8f54c10fd8ce1d') in 0.025888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-12-01.png
+  artifactKey: Guid(05accd61edb7f2b40b08d4417ab94045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-12-01.png using Guid(05accd61edb7f2b40b08d4417ab94045) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b172834c0f1b5bffdcfad4eccbfbd8f8') in 0.0286815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-10-01.png
+  artifactKey: Guid(f2123c3b514271d46b3346e9044404c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-10-01.png using Guid(f2123c3b514271d46b3346e9044404c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70d12f87deecaa639ef7e3d11ad23860') in 0.026511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-03-01.png
+  artifactKey: Guid(982d73cea62767345b331f1c40e90d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-03-01.png using Guid(982d73cea62767345b331f1c40e90d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea19d94854a8afe0c8dd8ef06e8d0938') in 0.0259526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6478 unused Assets / (4.5 MB). Loaded Objects now: 7209.
+Memory consumption went from 141.0 MB to 136.6 MB.
+Total: 8.539300 ms (FindLiveObjects: 0.655600 ms CreateObjectMapping: 0.333700 ms MarkObjects: 5.177200 ms  DeleteObjects: 2.371600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.806 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1570ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6485 unused Assets / (5.0 MB). Loaded Objects now: 7224.
+Memory consumption went from 147.9 MB to 142.9 MB.
+Total: 8.590200 ms (FindLiveObjects: 0.649500 ms CreateObjectMapping: 0.562300 ms MarkObjects: 4.665400 ms  DeleteObjects: 2.712000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

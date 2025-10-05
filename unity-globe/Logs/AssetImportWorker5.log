@@ -1,0 +1,2097 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-greg" at "2025-10-05T07:00:28.6246604Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-05T07:00:28Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/greg/NASA Space Apps
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+53183
+-licensingIpc
+LicenseClient-greg
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/greg/NASA Space Apps
+C:/Users/greg/NASA Space Apps
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28540]  Target information:
+
+Player connection [28540]  * "[IP] 172.27.255.121 [Port] 0 [Flags] 2 [Guid] 271857940 [EditorId] 271857940 [Version] 1048832 [Id] WindowsEditor(7,CORVETTE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28540] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28540] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18080, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              be6465dc6a2f427a8d8052da0df40bc4
+  Correlation Id:          329f0b2d4233c3698cbcd98a456f09e0
+  External correlation Id: 1785802148470690978
+  Machine Id:              biwbn/0H+1P1q/wELeKouJFBH40=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-greg" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-greg-notifications" at "2025-10-05T07:00:28.6562223Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474347458251-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/greg/NASA Space Apps/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.8088
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004638 seconds.
+- Loaded All Assemblies, in  0.423 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 706ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (288ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA Space Apps
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1320ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6489 unused Assets / (5.0 MB). Loaded Objects now: 7204.
+Memory consumption went from 143.5 MB to 138.6 MB.
+Total: 8.316500 ms (FindLiveObjects: 1.197000 ms CreateObjectMapping: 0.434200 ms MarkObjects: 4.685900 ms  DeleteObjects: 1.998400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 538.503062 seconds.
+  path: Assets/StreamingAssets/LARGE_bloom_maps/bloom_2013-12-01.png
+  artifactKey: Guid(a5d955a4ef77c4f45bd132878b0d0cf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StreamingAssets/LARGE_bloom_maps/bloom_2013-12-01.png using Guid(a5d955a4ef77c4f45bd132878b0d0cf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3a0a37d6cb8a1ac932b6e19c9168c13') in 0.1422779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.161365 seconds.
+  path: Assets/Resources/LARGE_bloom_maps
+  artifactKey: Guid(69d70fd256f7ab24f896f57ecdf21551) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps using Guid(69d70fd256f7ab24f896f57ecdf21551) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd45dbeddf0f8836d227282a1feba0895') in 0.0135226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-04-01.png
+  artifactKey: Guid(efa20d8eacd434344976a2d76d8eea02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-04-01.png using Guid(efa20d8eacd434344976a2d76d8eea02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '187a3e09bde95ba7f58b92bcc3880884') in 0.4146144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-05-01.png
+  artifactKey: Guid(2662ea8d9f52cbc46b53c4da6475431d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-05-01.png using Guid(2662ea8d9f52cbc46b53c4da6475431d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7947f3f24d4920e06fdacccad0182521') in 0.0429292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-06-01.png
+  artifactKey: Guid(9dbe45b175968e046958ea0a2f1d44f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-06-01.png using Guid(9dbe45b175968e046958ea0a2f1d44f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac73322cfc32aa75d7243616b753645a') in 0.0396486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-05-01.png
+  artifactKey: Guid(f840d3f7be44a284bba260fcd0c13ec4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-05-01.png using Guid(f840d3f7be44a284bba260fcd0c13ec4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ff581fedd34c437481643e2586e4a9d') in 0.0380654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-04-01.png
+  artifactKey: Guid(2f4169b5eb2b843409bffc8fc0359dee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-04-01.png using Guid(2f4169b5eb2b843409bffc8fc0359dee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10655c384f1d2e719ab6b2c42567013f') in 0.0648453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-05-01.png
+  artifactKey: Guid(c4c0cb8bb34186b4ca0dff39bf1edb48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-05-01.png using Guid(c4c0cb8bb34186b4ca0dff39bf1edb48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05ff46bc8def8fff8932d65f362af361') in 0.0442775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-09-01.png
+  artifactKey: Guid(13e63ce2e2ccd1f4db0c621bc83f1ffe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-09-01.png using Guid(13e63ce2e2ccd1f4db0c621bc83f1ffe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cdd77cbb56f96cd504693ae0e49a722') in 0.0363462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-04-01.png
+  artifactKey: Guid(0344288dcfce3a7499cc316d303e13ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-04-01.png using Guid(0344288dcfce3a7499cc316d303e13ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a33cba54d53afbeff52ec9c80b9eb1de') in 0.0353888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-11-01.png
+  artifactKey: Guid(98812bd0748605d498f39abd7e38a625) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-11-01.png using Guid(98812bd0748605d498f39abd7e38a625) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f0dcfc0501f73c5e6be031a7cae297f') in 0.03432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-09-01.png
+  artifactKey: Guid(4886101d87feaea44862600c6c599d0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-09-01.png using Guid(4886101d87feaea44862600c6c599d0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64c6e84d285c235574c253c24d8a2ccc') in 0.0431854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-05-01.png
+  artifactKey: Guid(c6e284e526ac63046aad0a381c1bbd11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-05-01.png using Guid(c6e284e526ac63046aad0a381c1bbd11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '627526c6d78cec6c64e03133dcf292f5') in 0.0407963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-08-01.png
+  artifactKey: Guid(ad7609e05fb9226498b6f8556b8152e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-08-01.png using Guid(ad7609e05fb9226498b6f8556b8152e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26e28ee9ae861aa4c8a1df903b5478cb') in 0.0334765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-06-01.png
+  artifactKey: Guid(20685af65563ee34fb7b4957840daec6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-06-01.png using Guid(20685af65563ee34fb7b4957840daec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d646ebb49dc5698b22b8bfddf06f81a') in 0.0319377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-02-01.png
+  artifactKey: Guid(f9d241b934d5c3346914da65d9a5c898) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-02-01.png using Guid(f9d241b934d5c3346914da65d9a5c898) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bed2c26853777ed26a86ab41ec42463') in 0.0361237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-03-01.png
+  artifactKey: Guid(41624bf99244cea408c0459bb89c60a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-03-01.png using Guid(41624bf99244cea408c0459bb89c60a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a3003c4f9e3e73828481b461dcb74e9') in 0.0336596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-07-01.png
+  artifactKey: Guid(ee237bc2f023b2b46be49e57ba10c1cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-07-01.png using Guid(ee237bc2f023b2b46be49e57ba10c1cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '209fcb21bc73baa4fe36aff0a2f73d21') in 0.0343305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-04-01.png
+  artifactKey: Guid(4fe294eec60c25542aabbe5954645e37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-04-01.png using Guid(4fe294eec60c25542aabbe5954645e37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9575f583c5d27eb8c9fbd7ab880712e') in 0.0328902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-09-01.png
+  artifactKey: Guid(20c9901fc3e159f498425e61b568350e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-09-01.png using Guid(20c9901fc3e159f498425e61b568350e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e760f416a5ce5d0de3483391905373e') in 0.0328117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-11-01.png
+  artifactKey: Guid(03dd4adfae3805c44877618898c11d83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-11-01.png using Guid(03dd4adfae3805c44877618898c11d83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '608dd3a7ac21f8b028a72fbcf6d64620') in 0.0335751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-04-01.png
+  artifactKey: Guid(615fd0e6e64b70e408683bc9510a7291) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-04-01.png using Guid(615fd0e6e64b70e408683bc9510a7291) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39af685d6323cf8a99bb20ed1a93338b') in 0.0307252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-07-01.png
+  artifactKey: Guid(39c5ff02155be7640bc008f9d1a629d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-07-01.png using Guid(39c5ff02155be7640bc008f9d1a629d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a53a130cda99bbac718502b830b8311') in 0.0297684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-12-01.png
+  artifactKey: Guid(ddcb2e0ab4f18b549b89420e53626326) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-12-01.png using Guid(ddcb2e0ab4f18b549b89420e53626326) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0792ba4076c2246542307529ed6a7a82') in 0.0333996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-09-01.png
+  artifactKey: Guid(c4233f5fd4c12b4448e5727e8ef2d8f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-09-01.png using Guid(c4233f5fd4c12b4448e5727e8ef2d8f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bf1041374c14ca8d06344ba487f5d62') in 0.0298941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-09-01.png
+  artifactKey: Guid(6a8b89a9c84b7fb4b94aa0176d54d9b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-09-01.png using Guid(6a8b89a9c84b7fb4b94aa0176d54d9b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98e2029521d75eabc19aa05022c3a425') in 0.0320045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-06-01.png
+  artifactKey: Guid(01ccb77f4f9ddc043b35b7779d2ed6b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-06-01.png using Guid(01ccb77f4f9ddc043b35b7779d2ed6b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe882689611bce8fdc298943c8e83364') in 0.0298393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-12-01.png
+  artifactKey: Guid(9351d3b233329dd41ad1d77609f6bcba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-12-01.png using Guid(9351d3b233329dd41ad1d77609f6bcba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd066b76aa80480c505628bd884a2a652') in 0.0318618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-11-01.png
+  artifactKey: Guid(02b725187776b6446a45302760f5f26f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-11-01.png using Guid(02b725187776b6446a45302760f5f26f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fe4b5127c2ceb721f3e99575e5cc491') in 0.0352547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-07-01.png
+  artifactKey: Guid(9d18ed8640178a446a2787caf85b179f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-07-01.png using Guid(9d18ed8640178a446a2787caf85b179f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd714c320d80436a9c3686e99f0a2dfc1') in 0.0344435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-11-01.png
+  artifactKey: Guid(6dd743efc3a874240923600aeedac52a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-11-01.png using Guid(6dd743efc3a874240923600aeedac52a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '382dc1b8838c3e9d3cf6d815f6658f0b') in 0.0351804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-05-01.png
+  artifactKey: Guid(3eaea580113f39646a22005cb469a59f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-05-01.png using Guid(3eaea580113f39646a22005cb469a59f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4eeb764c3baf5f889102ca6b25e633e5') in 0.0353114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-04-01.png
+  artifactKey: Guid(dfaa2339830f10a4eb19afec83d6642b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-04-01.png using Guid(dfaa2339830f10a4eb19afec83d6642b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69cc6a2658aac25f07a5097cfdada3e9') in 0.0332376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-05-01.png
+  artifactKey: Guid(79f8ffd872c1e2046a06a66646cd55a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-05-01.png using Guid(79f8ffd872c1e2046a06a66646cd55a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '298ea6dc929b05cb5bdfbf1d9ce37a1c') in 0.0319034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-03-01.png
+  artifactKey: Guid(796e836407c303944a3666afe6e823e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-03-01.png using Guid(796e836407c303944a3666afe6e823e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4290775f60f4ecfd4f700ecb67913524') in 0.0319757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-05-01.png
+  artifactKey: Guid(c66d535211cfb1d4982a815de570913a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-05-01.png using Guid(c66d535211cfb1d4982a815de570913a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34e7fced3e30b7639aa987b664caea6c') in 0.0375889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2016-03-01.png
+  artifactKey: Guid(a9782912283f16d4e9c80e7d8db3a070) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2016-03-01.png using Guid(a9782912283f16d4e9c80e7d8db3a070) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4e865834571bfdc8f393279623a6265') in 0.0319536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-08-01.png
+  artifactKey: Guid(5fb50dbe4f6cdd1458eb12982c3f1f17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-08-01.png using Guid(5fb50dbe4f6cdd1458eb12982c3f1f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a84462693fb07ac8901b1c42814b6961') in 0.0324881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-10-01.png
+  artifactKey: Guid(2c88e3055198db740894d1973b522173) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-10-01.png using Guid(2c88e3055198db740894d1973b522173) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2d0f2cb1e9cd44a4cbc7ad0c30d87c3') in 0.0316017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-11-01.png
+  artifactKey: Guid(cdba1cd816ecea84e868f05d39716ad8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-11-01.png using Guid(cdba1cd816ecea84e868f05d39716ad8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f95bf1185ec53b168f72af6182a7ec86') in 0.0281656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-12-01.png
+  artifactKey: Guid(5a405cb2d498aea49b5a55feea1dad13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-12-01.png using Guid(5a405cb2d498aea49b5a55feea1dad13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e03cd87647326b3cea776b12155dfd9') in 0.0374523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-06-01.png
+  artifactKey: Guid(2b9aa4c40b8570a4399d5ce61c92fd78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-06-01.png using Guid(2b9aa4c40b8570a4399d5ce61c92fd78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7030795d712feb6547bae99895d00b68') in 0.0356726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2017-09-01.png
+  artifactKey: Guid(022361963c7b05942a62c5cebd936fef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2017-09-01.png using Guid(022361963c7b05942a62c5cebd936fef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e764833ff0437586f5632be855dd7aa6') in 0.0335612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2017-05-01.png
+  artifactKey: Guid(d186e02028591ac45b948e8067012c8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2017-05-01.png using Guid(d186e02028591ac45b948e8067012c8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6a19d977e0d23729c4c19ac2f91192d') in 0.034239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2017-03-01.png
+  artifactKey: Guid(c0ba2d312918a3d46bc932c602e045b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2017-03-01.png using Guid(c0ba2d312918a3d46bc932c602e045b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f0a6d014b44f1638921ab1c839a032c') in 0.0318808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-05-01.png
+  artifactKey: Guid(85359206c93ddce45970bc623464883f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-05-01.png using Guid(85359206c93ddce45970bc623464883f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46798d30e1648eecef2e83f571715b5c') in 0.0308426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-06-01.png
+  artifactKey: Guid(62a63c207ffef094981b0373fad5eba7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-06-01.png using Guid(62a63c207ffef094981b0373fad5eba7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3840c05c39d63bc24f6d787d35e8894') in 0.0326231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-08-01.png
+  artifactKey: Guid(f1fba065aeff6764ea3518e225826748) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-08-01.png using Guid(f1fba065aeff6764ea3518e225826748) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a91a5290756d6d4a48fb8c4ee072690e') in 0.035467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-12-01.png
+  artifactKey: Guid(faa42447dd1ce92448dd20a1e97e08db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-12-01.png using Guid(faa42447dd1ce92448dd20a1e97e08db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41c37cc627ea6df6f46b476b97a40e68') in 0.0307159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-04-01.png
+  artifactKey: Guid(a994903c586d4004d9ea3f9b06a00b55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-04-01.png using Guid(a994903c586d4004d9ea3f9b06a00b55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0484677d79439c47f1a251afab5ca83') in 0.0396791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-01-01.png
+  artifactKey: Guid(6f287f4a09538e24483531aebc7ca014) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-01-01.png using Guid(6f287f4a09538e24483531aebc7ca014) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a856a880fc1125a30c3f83235a0d2a43') in 0.0335962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-04-01.png
+  artifactKey: Guid(109f05894bcc19840923c4560404d7c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-04-01.png using Guid(109f05894bcc19840923c4560404d7c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1111b813c92f439686202078774f563') in 0.031311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-09-01.png
+  artifactKey: Guid(35d0faaf417c4cd4a9a2cb9a3aca4bf9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-09-01.png using Guid(35d0faaf417c4cd4a9a2cb9a3aca4bf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b83a8e24769c80cbe639fd7b046823a8') in 0.0310136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2016-06-01.png
+  artifactKey: Guid(5c23be2df13f00c48a2895cf84124c1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2016-06-01.png using Guid(5c23be2df13f00c48a2895cf84124c1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '003049dda9e13afe9f70b4667f13d9e4') in 0.0324977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2016-08-01.png
+  artifactKey: Guid(de7a6cacc2b631646a7a95e9effdc130) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2016-08-01.png using Guid(de7a6cacc2b631646a7a95e9effdc130) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dd8c1de53590d9bc794cd691441f4b0') in 0.0334846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2019-04-01.png
+  artifactKey: Guid(1995ee0e99f46ff4c83a1e6d877ce912) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2019-04-01.png using Guid(1995ee0e99f46ff4c83a1e6d877ce912) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bdc467142e2ae438a95cf87c5270e7c') in 0.0351587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2019-12-01.png
+  artifactKey: Guid(4c8af743a09f75e4bb30af24a1a817b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2019-12-01.png using Guid(4c8af743a09f75e4bb30af24a1a817b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '359b4257dd48974af7242f58e71b230a') in 0.0335686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2019-01-01.png
+  artifactKey: Guid(a0fd0ca18bb221040bcb121c5f815cd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2019-01-01.png using Guid(a0fd0ca18bb221040bcb121c5f815cd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29d77295110240fffc25906f906a260d') in 0.0361221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-12-01.png
+  artifactKey: Guid(c2987fe237d4f8f409d4877bb4a47343) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-12-01.png using Guid(c2987fe237d4f8f409d4877bb4a47343) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2948577738b24d441aaa355eb7d364e2') in 0.031674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-02-01.png
+  artifactKey: Guid(fbde334fd3ec8e14a86bfa6ea11a18c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-02-01.png using Guid(fbde334fd3ec8e14a86bfa6ea11a18c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74fa60e26e8c2d7309ad9967786c3634') in 0.036744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-01-01.png
+  artifactKey: Guid(6dac1a41d7f90ab498a93b2e0a93d13b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-01-01.png using Guid(6dac1a41d7f90ab498a93b2e0a93d13b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f8734b8779f182734b335fe6bf52746') in 0.0349871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2020-11-01.png
+  artifactKey: Guid(b1223966eea676a40bbe03fcad8f2726) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2020-11-01.png using Guid(b1223966eea676a40bbe03fcad8f2726) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '422843fd10a19efaba619b563bc419f2') in 0.0326832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2020-10-01.png
+  artifactKey: Guid(fa5b8bda90f840643a03c3ab99e2ac0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2020-10-01.png using Guid(fa5b8bda90f840643a03c3ab99e2ac0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97804642cbd0dba773151e24b51339de') in 0.0336924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2017-02-01.png
+  artifactKey: Guid(c9110851d7c120e4ea0e14959ec9cdb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2017-02-01.png using Guid(c9110851d7c120e4ea0e14959ec9cdb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89a6c306d8675a59d43cf078d7a144c7') in 0.0355842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-02-01.png
+  artifactKey: Guid(8d37a83442527c742949aeb35a36577d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-02-01.png using Guid(8d37a83442527c742949aeb35a36577d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6af833f5121de8277c8e3ec17805334d') in 0.0358049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2017-11-01.png
+  artifactKey: Guid(04fed579bb0d8ba48b0ec5228cbcf349) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2017-11-01.png using Guid(04fed579bb0d8ba48b0ec5228cbcf349) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56b702d03f5f55f07d81df7bacfafe1d') in 0.0411334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-01-01.png
+  artifactKey: Guid(7829d3061d2e17e418d426a0a7068124) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-01-01.png using Guid(7829d3061d2e17e418d426a0a7068124) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10a89536d7738649ef97c900a39ce35d') in 0.0345057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-04-01.png
+  artifactKey: Guid(f0a76983edee1654798a3d3a2b064011) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-04-01.png using Guid(f0a76983edee1654798a3d3a2b064011) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e41ad9cfeabdbc85c8f6ec389e00fe5') in 0.0331962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2022-03-01.png
+  artifactKey: Guid(0fb327f7ff77f4f43a930c6ed413ab5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2022-03-01.png using Guid(0fb327f7ff77f4f43a930c6ed413ab5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e1e704c6aa33d389d3eb77c83fe0a80') in 0.0334024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2021-02-01.png
+  artifactKey: Guid(a5d6d6948832b9141ac206df3cfb9bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2021-02-01.png using Guid(a5d6d6948832b9141ac206df3cfb9bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40ccfbb302b7ba9029978c0d0c4da0aa') in 0.0356266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2021-05-01.png
+  artifactKey: Guid(489949d7992c29c43ba3633ea721baf9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2021-05-01.png using Guid(489949d7992c29c43ba3633ea721baf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b26b5d12578b23384e4a16f69677777') in 0.031611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-12-01.png
+  artifactKey: Guid(a45a928e88cf9a04998f7bc7de46c970) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-12-01.png using Guid(a45a928e88cf9a04998f7bc7de46c970) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ad34543a8651b397bf929cc58e2b862') in 0.0301675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-07-01.png
+  artifactKey: Guid(8074b3f60fcefc3468d7f11ee0ba7766) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-07-01.png using Guid(8074b3f60fcefc3468d7f11ee0ba7766) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67a7f7b277568880a636024e6f56e720') in 0.0341334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-06-01.png
+  artifactKey: Guid(d34e827a52f782746b2cc230f6c2a4ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-06-01.png using Guid(d34e827a52f782746b2cc230f6c2a4ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '469104c1f6286af7fe78c687bb3fc616') in 0.0337685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-01-01.png
+  artifactKey: Guid(425152976e986c649b2a84acc5947a9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-01-01.png using Guid(425152976e986c649b2a84acc5947a9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dab6d09dbbf8c10908cf2f54aadeb27e') in 0.0317391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2023-03-01.png
+  artifactKey: Guid(2a0e7304c9a27794980863724dbc48d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2023-03-01.png using Guid(2a0e7304c9a27794980863724dbc48d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e37bc47c50955f18cbdc89055a3c14d') in 0.0364184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2022-08-01.png
+  artifactKey: Guid(9f8658aaadf795d40807d713d8e59ecd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2022-08-01.png using Guid(9f8658aaadf795d40807d713d8e59ecd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '722e7769eeb83d1a994c561f1be62c9f') in 0.0342073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2023-04-01.png
+  artifactKey: Guid(272123ac8a71e2d45ae48735741cf8be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2023-04-01.png using Guid(272123ac8a71e2d45ae48735741cf8be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1660ec1af7b43abe31281983b28e25b') in 0.0331807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2023-01-01.png
+  artifactKey: Guid(889c81278720671428d0397b62793740) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2023-01-01.png using Guid(889c81278720671428d0397b62793740) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c54eb6de46d47a99ea9c53b087031766') in 0.0333168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-09-01.png
+  artifactKey: Guid(7c9faccffa7042e4986f5824d3c64b35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-09-01.png using Guid(7c9faccffa7042e4986f5824d3c64b35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f3eef3df9bd5099835c7318d16769cb') in 0.0332865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-03-01.png
+  artifactKey: Guid(ea240595cf4c07840b872dd728426d18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-03-01.png using Guid(ea240595cf4c07840b872dd728426d18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e8c56fecb204fe2f851865e2c3d7c90') in 0.0338275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2023-09-01.png
+  artifactKey: Guid(46ef88819db020a499ef1e348ec260ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2023-09-01.png using Guid(46ef88819db020a499ef1e348ec260ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67b82a6627c38dcbfc38da8ceb03a5fc') in 0.0339771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2024-02-01.png
+  artifactKey: Guid(c7934ba27237dab41a345e9445f47ffa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2024-02-01.png using Guid(c7934ba27237dab41a345e9445f47ffa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f50223118d4327db9145b975b49d740b') in 0.0323437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-12-01.png
+  artifactKey: Guid(29e1eafe47ee4084ebc41102baf09e23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-12-01.png using Guid(29e1eafe47ee4084ebc41102baf09e23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2db6326e7b506dbdf7b30ca0debf3cf2') in 0.0341663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2024-04-01.png
+  artifactKey: Guid(6db8e2ba14b55fb47b6f9c775e65822e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2024-04-01.png using Guid(6db8e2ba14b55fb47b6f9c775e65822e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86c2126b05ade212cfc07796ed946765') in 0.0338014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-06-01.png
+  artifactKey: Guid(e67c9de947df0884bb43c7461d96ef65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-06-01.png using Guid(e67c9de947df0884bb43c7461d96ef65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e04ae2ce06ad74427bf74f0cc281f0a') in 0.0357434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2021-01-01.png
+  artifactKey: Guid(2dce3e24f26f5cd4e845374c5b4e80f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2021-01-01.png using Guid(2dce3e24f26f5cd4e845374c5b4e80f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7ea16a96e7dc9152879b730daaa1f02') in 0.0335413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2020-08-01.png
+  artifactKey: Guid(90b53adb4e5300a458f02dc9c76248d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2020-08-01.png using Guid(90b53adb4e5300a458f02dc9c76248d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08e557ad7ff81d5a382f1d9fdffd0a61') in 0.0331466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2025-01-01.png
+  artifactKey: Guid(43ec870ea7578784b99b4070d9844eb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2025-01-01.png using Guid(43ec870ea7578784b99b4070d9844eb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '189d906c0ab5e2aab639ad65fe612c51') in 0.0342764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2025-03-01.png
+  artifactKey: Guid(74d22e7aaf865b1499fa682beede64fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2025-03-01.png using Guid(74d22e7aaf865b1499fa682beede64fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '947acfd3bea213930401065898215efe') in 0.0344938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2025-05-01.png
+  artifactKey: Guid(e70279b448337154aacc5bc2ce2331ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2025-05-01.png using Guid(e70279b448337154aacc5bc2ce2331ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b464a73088935c58f56133bc6a6d7b5') in 0.036034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2020-05-01.png
+  artifactKey: Guid(717c1fb86f29fe44fa2279f3527c2ba8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2020-05-01.png using Guid(717c1fb86f29fe44fa2279f3527c2ba8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08a571a19f73ee6567cd9bf656d1bd1d') in 0.0335281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-03-01.png
+  artifactKey: Guid(d6f54950dd795024aa4c81a5596cc12f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-03-01.png using Guid(d6f54950dd795024aa4c81a5596cc12f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5dadf8f4af7c6380b832251cef9c333') in 0.0371867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2023-11-01.png
+  artifactKey: Guid(5b6e44ee9857771409d617a987384391) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2023-11-01.png using Guid(5b6e44ee9857771409d617a987384391) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bece4f2c1c5d5cd6d154f2be9d75c470') in 0.0343833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2020-09-01.png
+  artifactKey: Guid(efe8011193395184fbc97efd8fc9d0c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2020-09-01.png using Guid(efe8011193395184fbc97efd8fc9d0c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c32fc5b155eb815e1bfedd2aab8816ea') in 0.0340998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-02-01.png
+  artifactKey: Guid(e797cc2135353654ea48f61ef856ed7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-02-01.png using Guid(e797cc2135353654ea48f61ef856ed7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e3849b1de3d817fac4e0c5b2f6ed400') in 0.0343842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2017-10-01.png
+  artifactKey: Guid(30b9015a9e9df3b4587907ee8e606b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2017-10-01.png using Guid(30b9015a9e9df3b4587907ee8e606b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70ee0c07131621f7664c2654e11d4e18') in 0.0343516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-04-01.png
+  artifactKey: Guid(94db99a7bef2ef3448556e73a18f22d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-04-01.png using Guid(94db99a7bef2ef3448556e73a18f22d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2080bb94a03322b638f3f87c1213665e') in 0.0310945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-04-01.png
+  artifactKey: Guid(89a0bbc279ce1dc44a1e6622023e7710) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-04-01.png using Guid(89a0bbc279ce1dc44a1e6622023e7710) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff207ca17c8c8b9063e08e3d1b844df6') in 0.035861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-12-01.png
+  artifactKey: Guid(f3db605d6b590604e8b0a8c4a69ae2b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-12-01.png using Guid(f3db605d6b590604e8b0a8c4a69ae2b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6652f45bdbcacca8a55d81eaebe773a8') in 0.0368402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-10-01.png
+  artifactKey: Guid(cebe205dd41a7e24ca947741e2c6d214) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-10-01.png using Guid(cebe205dd41a7e24ca947741e2c6d214) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60c931bdba21b18a200e6e86b28edfb5') in 0.0332376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2021-08-01.png
+  artifactKey: Guid(c455e0b5a01b9224094af2765f099fb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2021-08-01.png using Guid(c455e0b5a01b9224094af2765f099fb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '454e8b84e9650d4d738a059a4c1c5acb') in 0.0330819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-02-01.png
+  artifactKey: Guid(6ba8f1070eca10344aaf10265ab38de0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-02-01.png using Guid(6ba8f1070eca10344aaf10265ab38de0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b52ef7d67f073badf30a7f7eb81cb7b') in 0.03189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2022-04-01.png
+  artifactKey: Guid(99d966a14c94b1b4db96f0a71d7c0d60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2022-04-01.png using Guid(99d966a14c94b1b4db96f0a71d7c0d60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eef637bd7b9986bbb55b3a93f50ede16') in 0.0322778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-03-01.png
+  artifactKey: Guid(dc58f206d82d2e249a779998375c3ce1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-03-01.png using Guid(dc58f206d82d2e249a779998375c3ce1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e074562017ed96d6f3ccd3d9aa9021f') in 0.047458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2019-07-01.png
+  artifactKey: Guid(96931f339a16be745ba65d56dee54a73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2019-07-01.png using Guid(96931f339a16be745ba65d56dee54a73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11cc66ea16e0fb39667d592cc6c36c0f') in 0.0352193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-01-01.png
+  artifactKey: Guid(8fe901c16709d9b4b84b0fa336075b88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-01-01.png using Guid(8fe901c16709d9b4b84b0fa336075b88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9b3ec412cafc8fd15f98b30cbc1c67b') in 0.032855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-12-01.png
+  artifactKey: Guid(9401ca05d1f116c459d825ca5da5be90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-12-01.png using Guid(9401ca05d1f116c459d825ca5da5be90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af6344bfaf29b94af52f14ac04568757') in 0.0312762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-03-01.png
+  artifactKey: Guid(20641b2eb1d9f4c43b115f7cc3c60627) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-03-01.png using Guid(20641b2eb1d9f4c43b115f7cc3c60627) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db35aa53eac5bec88adf8cd462d94b33') in 0.0311907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-11-01.png
+  artifactKey: Guid(0af834a0368df154b86e5ec06f45844e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-11-01.png using Guid(0af834a0368df154b86e5ec06f45844e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e267bc518426b9f216d7c0550fb74ff5') in 0.0346062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-10-01.png
+  artifactKey: Guid(9bf0420691724e347b9e929d78d53531) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-10-01.png using Guid(9bf0420691724e347b9e929d78d53531) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f68cefc7677707037eb6323b6cddf33') in 0.034406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2024-10-01.png
+  artifactKey: Guid(55f1640b6ab055543a8ff2b8d941b35e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2024-10-01.png using Guid(55f1640b6ab055543a8ff2b8d941b35e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b23726c960abe7bba04c8623b405412b') in 0.0390964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-10-01.png
+  artifactKey: Guid(11206fd4863dbe741bd525d8f84f3d12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-10-01.png using Guid(11206fd4863dbe741bd525d8f84f3d12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '461f8d3bb39fd6949320d873e8d7ead1') in 0.0327164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2020-02-01.png
+  artifactKey: Guid(293179d4013ac4a419647765e80a929c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2020-02-01.png using Guid(293179d4013ac4a419647765e80a929c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b906544f969a70fea79025468666eb7') in 0.0334861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-02-01.png
+  artifactKey: Guid(beab308efcc726b44808ea6b660b0bd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-02-01.png using Guid(beab308efcc726b44808ea6b660b0bd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd6f811b1bbc31ddc1d1ee4dcd4fde8b') in 0.0330289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2016-09-01.png
+  artifactKey: Guid(9ccd672acc1fd38409edb6aa61544a87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2016-09-01.png using Guid(9ccd672acc1fd38409edb6aa61544a87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59dfcca2652d77a1eb25a00e67db4bc9') in 0.0341156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-11-01.png
+  artifactKey: Guid(9e1c4044bd82a8548a3ca1dad2d1f345) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-11-01.png using Guid(9e1c4044bd82a8548a3ca1dad2d1f345) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd19eae54b19c1263e268b675ac1def6') in 0.0321897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-07-01.png
+  artifactKey: Guid(9760037c37d0de54580921d88fc8a50a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-07-01.png using Guid(9760037c37d0de54580921d88fc8a50a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5a27cd75003784979da74b8051fb860') in 0.0327407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-12-01.png
+  artifactKey: Guid(fd8c692c2deb967489604cdd42eb0c2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-12-01.png using Guid(fd8c692c2deb967489604cdd42eb0c2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1257fb51843d1f04927b9f423598a90') in 0.0340382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2018-07-01.png
+  artifactKey: Guid(c6f4f641d00352e4797c3f2fda32b68d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2018-07-01.png using Guid(c6f4f641d00352e4797c3f2fda32b68d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96281b21fcca2b233514a46bef35e93f') in 0.0359978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2023-10-01.png
+  artifactKey: Guid(cba47129b3266f349bd4285b6e0756c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2023-10-01.png using Guid(cba47129b3266f349bd4285b6e0756c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6688107b917b06d9c05ceca9e6dc493b') in 0.0360874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-04-01.png
+  artifactKey: Guid(b1e245614c1081442a7082edc99524e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-04-01.png using Guid(b1e245614c1081442a7082edc99524e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '809797f8f9771e1872834772c3e8ab6d') in 0.0376457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-06-01.png
+  artifactKey: Guid(cbddba44ab4fec1439b882577e2d9a82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-06-01.png using Guid(cbddba44ab4fec1439b882577e2d9a82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9d1c1be490f9ddd469b51372072c8fc') in 0.0369878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-02-01.png
+  artifactKey: Guid(adc085282cfbdb04c81273d44023eef8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-02-01.png using Guid(adc085282cfbdb04c81273d44023eef8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5eb9555950f2274a4b43ad880bf76fd9') in 0.0356391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-12-01.png
+  artifactKey: Guid(aca00e1cfa44aee4c9448b78c8e88184) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-12-01.png using Guid(aca00e1cfa44aee4c9448b78c8e88184) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e7b8ed126be326bcc2af879f65fd005') in 0.0344549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-08-01.png
+  artifactKey: Guid(ea9d51a61d7035943951d32e863623da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-08-01.png using Guid(ea9d51a61d7035943951d32e863623da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '212e129f63065c2bf2306acf76efddd6') in 0.0396432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-07-01.png
+  artifactKey: Guid(541c2c1fbd8e3dc4d81c132aa14d368a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-07-01.png using Guid(541c2c1fbd8e3dc4d81c132aa14d368a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c68e363e78fed28d3c3179ed81534552') in 0.0344527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-07-01.png
+  artifactKey: Guid(153cd91030e67ca439193ea457074f36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-07-01.png using Guid(153cd91030e67ca439193ea457074f36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dd2e29603be4376a495556e5db68a56') in 0.0359455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-02-01.png
+  artifactKey: Guid(d734a7f61deb2944ba83494a08bbccbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-02-01.png using Guid(d734a7f61deb2944ba83494a08bbccbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '196c9b1752574ee9951a6bae8cc2ef51') in 0.0348625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2018-04-01.png
+  artifactKey: Guid(807da7eb4e27c8b4f8af9a80ac83a6bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2018-04-01.png using Guid(807da7eb4e27c8b4f8af9a80ac83a6bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba3e59fb041d407a4468bb7b30886654') in 0.0333141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-08-01.png
+  artifactKey: Guid(5253bfb248ae83e479be10cf195ee151) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-08-01.png using Guid(5253bfb248ae83e479be10cf195ee151) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a333495c7eac30537ec96056e1f9f41d') in 0.0355576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-02-01.png
+  artifactKey: Guid(262fc3efca8038440819ea6bb057122a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-02-01.png using Guid(262fc3efca8038440819ea6bb057122a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7b6a18d3a47d459e2e6d9eb00bc1809') in 0.0342288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-12-01.png
+  artifactKey: Guid(7a6ffe7d2664b3449a5e85678f3e84c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-12-01.png using Guid(7a6ffe7d2664b3449a5e85678f3e84c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46222a5c70d02e3c9670b2ec911e82c7') in 0.0330384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-03-01.png
+  artifactKey: Guid(975a26b1598e2fe41ac4f0a1d391f928) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-03-01.png using Guid(975a26b1598e2fe41ac4f0a1d391f928) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f74d432eade900831628bc68e00d7cc') in 0.0325025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2023-07-01.png
+  artifactKey: Guid(42dc110b1cffb15478caa1dc095f871d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2023-07-01.png using Guid(42dc110b1cffb15478caa1dc095f871d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd21076b7598511dcbd56fb44ad5f57fd') in 0.0330202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-10-01.png
+  artifactKey: Guid(d7790322f90655d4786cabfea56e9d12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-10-01.png using Guid(d7790322f90655d4786cabfea56e9d12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22440dbd8e2b1e8e02d07acaf973e92b') in 0.0331042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-01-01.png
+  artifactKey: Guid(aa9a1fdf533d7bc41a28908e2c11e419) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-01-01.png using Guid(aa9a1fdf533d7bc41a28908e2c11e419) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce5b995a8c5e89ddd665644a287c6a6f') in 0.0310661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2019-09-01.png
+  artifactKey: Guid(a1b9c4efbca5f7449acf9ab208cc8790) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2019-09-01.png using Guid(a1b9c4efbca5f7449acf9ab208cc8790) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaa9544092a8af55c39e817687645c9b') in 0.0324695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-05-01.png
+  artifactKey: Guid(d4ce8137a8472624189d8625c8b80aa9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-05-01.png using Guid(d4ce8137a8472624189d8625c8b80aa9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18a6848ef6ffea67fd99e9c0ffade457') in 0.0321695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-11-01.png
+  artifactKey: Guid(009a26bd690d7cf4d856e02eaf0e7f68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-11-01.png using Guid(009a26bd690d7cf4d856e02eaf0e7f68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '200fc1707184938f6538a29eb6899df6') in 0.0311843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2022-02-01.png
+  artifactKey: Guid(e5c2894ceaf758542835c720722c4bce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2022-02-01.png using Guid(e5c2894ceaf758542835c720722c4bce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5781543c3981ab71a0f1ee3c0c787bd1') in 0.0261387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2016-11-01.png
+  artifactKey: Guid(322fb4b5877a5a74ea12702a877aa88b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2016-11-01.png using Guid(322fb4b5877a5a74ea12702a877aa88b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de66ab4b6933a061af00f90f8380bd1a') in 0.0340604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-10-01.png
+  artifactKey: Guid(f00849075b58da64482f1385d91025b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-10-01.png using Guid(f00849075b58da64482f1385d91025b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f687d75379b7a190ca36fdf83e96135') in 0.0331212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-05-01.png
+  artifactKey: Guid(38ad4ec04740d934da1abb6e39ebccba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-05-01.png using Guid(38ad4ec04740d934da1abb6e39ebccba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e44eb3ccbf551a2c01dc88d56c5806d') in 0.0349688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-12-01.png
+  artifactKey: Guid(86378cee44e679a4791bc31ededb7e28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-12-01.png using Guid(86378cee44e679a4791bc31ededb7e28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6133c74389351fe132dd445535e0581b') in 0.031552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2019-10-01.png
+  artifactKey: Guid(4b775b63d7e8a884a966187cb394f2a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2019-10-01.png using Guid(4b775b63d7e8a884a966187cb394f2a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a01631d72e1e497caf53440591a7ff5b') in 0.0352172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2025-06-01.png
+  artifactKey: Guid(baa2b8b6b55acb74fa42eb8739b5a4f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2025-06-01.png using Guid(baa2b8b6b55acb74fa42eb8739b5a4f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c13b69802a3bfd519a85758b95eef5e1') in 0.0330251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-02-01.png
+  artifactKey: Guid(4a3650bb13492c34a8b50c18b92f0eed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-02-01.png using Guid(4a3650bb13492c34a8b50c18b92f0eed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a4356c400e63cfdfac3aebe27239268') in 0.0385444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-07-01.png
+  artifactKey: Guid(1b3f21fdc6041d449bb92515df669707) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-07-01.png using Guid(1b3f21fdc6041d449bb92515df669707) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2be4d8efa9b9e7493a6803586ecae535') in 0.0330591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2025-04-01.png
+  artifactKey: Guid(6d9baeb426b652b4380b2029235dcd51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2025-04-01.png using Guid(6d9baeb426b652b4380b2029235dcd51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dbbe7d9606350c5c53a2924a274a15b') in 0.0339404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2022-07-01.png
+  artifactKey: Guid(4420ca83f078bd1409ee679ea5e7b3c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2022-07-01.png using Guid(4420ca83f078bd1409ee679ea5e7b3c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0618245cc82102e9bb058da5f2b8858') in 0.024231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-11-01.png
+  artifactKey: Guid(0333bf8edf009aa48bd3cd8b60dad81b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-11-01.png using Guid(0333bf8edf009aa48bd3cd8b60dad81b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '039d6b01b2ea6b081cc0d4e80a28f552') in 0.033954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-06-01.png
+  artifactKey: Guid(12cbfce166ea7cb4e8eefbb8d69023bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-06-01.png using Guid(12cbfce166ea7cb4e8eefbb8d69023bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f1f8a88fb4ebd0e546cec56c31cc38f') in 0.0315093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-03-01.png
+  artifactKey: Guid(1b5cc096c7f751d468f8d185faf38e64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-03-01.png using Guid(1b5cc096c7f751d468f8d185faf38e64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29acc8cbfce9fbbc14e1298b2bd52cdd') in 0.0366226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-11-01.png
+  artifactKey: Guid(21440ba3f1efe574e87b965bef261dc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-11-01.png using Guid(21440ba3f1efe574e87b965bef261dc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12a62dfe3f999ae5a7c551930a6ffde2') in 0.0354914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2020-03-01.png
+  artifactKey: Guid(8399153907491bc448003299db0a367d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2020-03-01.png using Guid(8399153907491bc448003299db0a367d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4224ac20b9d522655fb5b895727b59f9') in 0.0385895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-03-01.png
+  artifactKey: Guid(3bab61751619d2146b6c72511c6420d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-03-01.png using Guid(3bab61751619d2146b6c72511c6420d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3017e413751f1a2960b000b675c71a84') in 0.0363191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-09-01.png
+  artifactKey: Guid(93e9e008250d4484394ccca0bf5d478f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-09-01.png using Guid(93e9e008250d4484394ccca0bf5d478f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b202326634098bed5a31d57a07e30e4') in 0.0418973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-07-01.png
+  artifactKey: Guid(4fab0ba480cbffd4d9dd003138bdc726) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-07-01.png using Guid(4fab0ba480cbffd4d9dd003138bdc726) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02b66313d234394e751bc1a58f91a542') in 0.0357992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-07-01.png
+  artifactKey: Guid(b84e422e2cffa054280c3e05d6a8d402) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-07-01.png using Guid(b84e422e2cffa054280c3e05d6a8d402) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2279c3d6e3433db47241b19496f1c8e') in 0.0429483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-03-01.png
+  artifactKey: Guid(7ce1ced0fb632cc498bb66be30730de9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-03-01.png using Guid(7ce1ced0fb632cc498bb66be30730de9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1942478297ba34742daa2559c8411c8') in 0.0362021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.378067 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-02-01.png
+  artifactKey: Guid(35b1ebece5229934c9e4ba4f7b0e5b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-02-01.png using Guid(35b1ebece5229934c9e4ba4f7b0e5b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '317520a21ab4b37505fc092ba63a2971') in 0.0911703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-04-01.png
+  artifactKey: Guid(f0a76983edee1654798a3d3a2b064011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-04-01.png using Guid(f0a76983edee1654798a3d3a2b064011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28ced5b9688a790f61b387bf8bc3130') in 0.0444567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-04-01.png
+  artifactKey: Guid(4fe294eec60c25542aabbe5954645e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-04-01.png using Guid(4fe294eec60c25542aabbe5954645e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc2f8f38b8169ee473a7723de70dee7f') in 0.0410604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-05-01.png
+  artifactKey: Guid(3eaea580113f39646a22005cb469a59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-05-01.png using Guid(3eaea580113f39646a22005cb469a59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89cda44cf0b2db3787ca99d178ffa1fb') in 0.0410259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-03-01.png
+  artifactKey: Guid(1b5cc096c7f751d468f8d185faf38e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-03-01.png using Guid(1b5cc096c7f751d468f8d185faf38e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4453d34d357de9c38c636ef942088fe2') in 0.0324391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-11-01.png
+  artifactKey: Guid(07bdbebb81ad5a445910935cd14051f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-11-01.png using Guid(07bdbebb81ad5a445910935cd14051f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94699bfcc07e5a83ea253af7a68156bf') in 0.0337139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-03-01.png
+  artifactKey: Guid(e253d5dad60e01441b96d5f767d25715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-03-01.png using Guid(e253d5dad60e01441b96d5f767d25715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42645c23b4a99820f684f059dbd21673') in 0.0412213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-07-01.png
+  artifactKey: Guid(73f38f3f611380342b72c70785e9ccc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-07-01.png using Guid(73f38f3f611380342b72c70785e9ccc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '093b5b25485241d226e913e00c2bda36') in 0.0249864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-08-01.png
+  artifactKey: Guid(ea9d51a61d7035943951d32e863623da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-08-01.png using Guid(ea9d51a61d7035943951d32e863623da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b44a9f57436535f1628743a7faeb645') in 0.0195012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-05-01.png
+  artifactKey: Guid(f840d3f7be44a284bba260fcd0c13ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-05-01.png using Guid(f840d3f7be44a284bba260fcd0c13ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6030e6479ba0a619bcd61390017b05c6') in 0.0184402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-08-01.png
+  artifactKey: Guid(7b4e127f52e8c5347b406f57ed894745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-08-01.png using Guid(7b4e127f52e8c5347b406f57ed894745) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cce73d1f9f1005bf251343be61f37b5') in 0.0187292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-09-01.png
+  artifactKey: Guid(4886101d87feaea44862600c6c599d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-09-01.png using Guid(4886101d87feaea44862600c6c599d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de1ae4ae57c681b6078d23b7a245a932') in 0.0186183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-09-01.png
+  artifactKey: Guid(c4233f5fd4c12b4448e5727e8ef2d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-09-01.png using Guid(c4233f5fd4c12b4448e5727e8ef2d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '694c2bf52fc275e176bb12bd964deef4') in 0.0175867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-04-01.png
+  artifactKey: Guid(615fd0e6e64b70e408683bc9510a7291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-04-01.png using Guid(615fd0e6e64b70e408683bc9510a7291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '631244bdc0818e5578933135bf7b5737') in 0.0170739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-12-01.png
+  artifactKey: Guid(e351a02fa5869f54dadc097d623745bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-12-01.png using Guid(e351a02fa5869f54dadc097d623745bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b88f1d7117d5ca3172e9845e8668c3a5') in 0.0268415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-02-01.png
+  artifactKey: Guid(eef9e55f2545e8c429b748d35555c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-02-01.png using Guid(eef9e55f2545e8c429b748d35555c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19028b4fe7f2481f441ba4b2d0771e29') in 0.0222119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-12-01.png
+  artifactKey: Guid(a45a928e88cf9a04998f7bc7de46c970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-12-01.png using Guid(a45a928e88cf9a04998f7bc7de46c970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '228015cb4deb18c7c13e3a808458c7d2') in 0.0176561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-11-01.png
+  artifactKey: Guid(21440ba3f1efe574e87b965bef261dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-11-01.png using Guid(21440ba3f1efe574e87b965bef261dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97d969e7d16a29719316ec70422fa646') in 0.0182724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-02-01.png
+  artifactKey: Guid(8d37a83442527c742949aeb35a36577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-02-01.png using Guid(8d37a83442527c742949aeb35a36577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be2aaaf8dfb1a6aebc45b0ab97214e78') in 0.0190021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-10-01.png
+  artifactKey: Guid(accc99ba6ccadd946b29fafeab7d9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-10-01.png using Guid(accc99ba6ccadd946b29fafeab7d9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1e71842d2c73d6ed38b6659359886af') in 0.0174118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-09-01.png
+  artifactKey: Guid(13e63ce2e2ccd1f4db0c621bc83f1ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-09-01.png using Guid(13e63ce2e2ccd1f4db0c621bc83f1ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18871b375646d34761a2c1a24ca27893') in 0.0175017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-07-01.png
+  artifactKey: Guid(4fab0ba480cbffd4d9dd003138bdc726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-07-01.png using Guid(4fab0ba480cbffd4d9dd003138bdc726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5171d31d9379c47bc1299526ef1459a8') in 0.0193745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-01-01.png
+  artifactKey: Guid(b98f5a4eb5689564e9ca18d9a2ca2da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-01-01.png using Guid(b98f5a4eb5689564e9ca18d9a2ca2da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09ce2641cee05571b75b41a8f65969f') in 0.0206946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2005-02-01.png
+  artifactKey: Guid(531f74ee50f560547bfc1df33e36d9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2005-02-01.png using Guid(531f74ee50f560547bfc1df33e36d9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '005639c19e2fcfbb379884b1ec9c9be9') in 0.0195633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-05-01.png
+  artifactKey: Guid(2662ea8d9f52cbc46b53c4da6475431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-05-01.png using Guid(2662ea8d9f52cbc46b53c4da6475431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f774359931089e72b7da364dad416cd4') in 0.0198523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-10-01.png
+  artifactKey: Guid(6292b7470e9bd294ba82aa24133ff8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-10-01.png using Guid(6292b7470e9bd294ba82aa24133ff8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb4e42dcf8ef482fe041ff16f1d9c99') in 0.0193255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2001-11-01.png
+  artifactKey: Guid(6ea3329931c7fdb4d91d2b5d8ae3b71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2001-11-01.png using Guid(6ea3329931c7fdb4d91d2b5d8ae3b71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c889e938344eb1ed25e64c09ccde0e88') in 0.0221196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-07-01.png
+  artifactKey: Guid(79d4ffc4a72f88746babe8490f035f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-07-01.png using Guid(79d4ffc4a72f88746babe8490f035f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab86e97c4793c39d636ca2b636a961da') in 0.0207881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144919 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-02-01.png
+  artifactKey: Guid(fbde334fd3ec8e14a86bfa6ea11a18c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-02-01.png using Guid(fbde334fd3ec8e14a86bfa6ea11a18c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af05b845ec766bfe6e31936a781af4e0') in 0.0252303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2002-01-01.png
+  artifactKey: Guid(6dac1a41d7f90ab498a93b2e0a93d13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2002-01-01.png using Guid(6dac1a41d7f90ab498a93b2e0a93d13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07e9d2b9ee96626c9c2137d434f63008') in 0.0211242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-07-01.png
+  artifactKey: Guid(39c5ff02155be7640bc008f9d1a629d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-07-01.png using Guid(39c5ff02155be7640bc008f9d1a629d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cc0640cc1a2e1335a445e35ec52ff1e') in 0.0230269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2004-03-01.png
+  artifactKey: Guid(578e9f810d4f133479e7edf2d322d389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2004-03-01.png using Guid(578e9f810d4f133479e7edf2d322d389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf7f6a860782633379933d372c428b23') in 0.0209389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-05-01.png
+  artifactKey: Guid(69b3005cbd221734e81da61fcb6d1e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-05-01.png using Guid(69b3005cbd221734e81da61fcb6d1e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c18f70945a8d172dfaddff5a7632e00') in 0.029131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2003-08-01.png
+  artifactKey: Guid(b114c1d2bfc02224681545c225963ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2003-08-01.png using Guid(b114c1d2bfc02224681545c225963ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2dd58c59f38ae517bec9a2406607164') in 0.0294756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2000-04-01.png
+  artifactKey: Guid(efa20d8eacd434344976a2d76d8eea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2000-04-01.png using Guid(efa20d8eacd434344976a2d76d8eea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c84c57c9ed3b5371945d1a9d73fad0b1') in 0.0297859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583209 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2006-12-01.png
+  artifactKey: Guid(86378cee44e679a4791bc31ededb7e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2006-12-01.png using Guid(86378cee44e679a4791bc31ededb7e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29ba737b851dd3b51502fda5d6bef378') in 0.0495765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-06-01.png
+  artifactKey: Guid(0dd47c983cb2fc6478fbca3e8aef21d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-06-01.png using Guid(0dd47c983cb2fc6478fbca3e8aef21d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '545542fce8e2c4ab3a058f781888208b') in 0.0427618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-09-01.png
+  artifactKey: Guid(93e9e008250d4484394ccca0bf5d478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-09-01.png using Guid(93e9e008250d4484394ccca0bf5d478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d0ce49f575672caadd0cafec2a1f95e') in 0.0419673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-04-01.png
+  artifactKey: Guid(89a0bbc279ce1dc44a1e6622023e7710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-04-01.png using Guid(89a0bbc279ce1dc44a1e6622023e7710) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfde99ca8a374fc981df1e3c556c35fe') in 0.0387501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2012-09-01.png
+  artifactKey: Guid(468cc1493c490994abe914ae0145ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2012-09-01.png using Guid(468cc1493c490994abe914ae0145ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fadaf36f92cb43ff039033be72298b9e') in 0.044034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-04-01.png
+  artifactKey: Guid(dbddc82eba0777c4cb6831133148cc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-04-01.png using Guid(dbddc82eba0777c4cb6831133148cc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ff9b845b046124b261f2518a183b062') in 0.0422851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-01-01.png
+  artifactKey: Guid(942a8760810202048887afc639cf4cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-01-01.png using Guid(942a8760810202048887afc639cf4cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33f733d6e8b6e5138e6f46e04d452ed5') in 0.0438233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-02-01.png
+  artifactKey: Guid(4a3650bb13492c34a8b50c18b92f0eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-02-01.png using Guid(4a3650bb13492c34a8b50c18b92f0eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e9b7213e134dfdecfdbc5ce2844d92e') in 0.0290349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-09-01.png
+  artifactKey: Guid(4150a7f2a8451d6408fcca6b1f132009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-09-01.png using Guid(4150a7f2a8451d6408fcca6b1f132009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62eaf0440481c62f86666c4ee5e2d3de') in 0.0264044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-05-01.png
+  artifactKey: Guid(38ad4ec04740d934da1abb6e39ebccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-05-01.png using Guid(38ad4ec04740d934da1abb6e39ebccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69ce42056c99e70b11866c0469177e17') in 0.0253377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-04-01.png
+  artifactKey: Guid(eb34a8dff0d4ad34d9e4bcdaff2dec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-04-01.png using Guid(eb34a8dff0d4ad34d9e4bcdaff2dec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47d669810ed962574e22419aa2013462') in 0.0245295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-03-01.png
+  artifactKey: Guid(796e836407c303944a3666afe6e823e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-03-01.png using Guid(796e836407c303944a3666afe6e823e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a290903d331c9e5e96dd5c6282cd3ac') in 0.0245512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-10-01.png
+  artifactKey: Guid(5f8f8ec052fa8804db0760fdf7b971f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-10-01.png using Guid(5f8f8ec052fa8804db0760fdf7b971f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d3a8876c7b3d37718be860d40414d6d') in 0.0245461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-09-01.png
+  artifactKey: Guid(7c9faccffa7042e4986f5824d3c64b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-09-01.png using Guid(7c9faccffa7042e4986f5824d3c64b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3c2277b129fada132b3d85a28d14aa2') in 0.0258384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-01-01.png
+  artifactKey: Guid(7829d3061d2e17e418d426a0a7068124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-01-01.png using Guid(7829d3061d2e17e418d426a0a7068124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ac996ba649441a932f86995e769bb9b') in 0.026651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-09-01.png
+  artifactKey: Guid(326a238c32633924eb22dfb0e288dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-09-01.png using Guid(326a238c32633924eb22dfb0e288dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95190c4332ce5c8c626f2ea4a8b53371') in 0.0234049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2009-05-01.png
+  artifactKey: Guid(6f6704eb3a1d13a45987d7c0d4508dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2009-05-01.png using Guid(6f6704eb3a1d13a45987d7c0d4508dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e747869394abb08b8a889bf1fcc0349') in 0.0243464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-05-01.png
+  artifactKey: Guid(dcd868d06e720ab4081e127877addd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-05-01.png using Guid(dcd868d06e720ab4081e127877addd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '406e7f42207202001dbdd8947d280f9e') in 0.0255066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2011-06-01.png
+  artifactKey: Guid(2b9aa4c40b8570a4399d5ce61c92fd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2011-06-01.png using Guid(2b9aa4c40b8570a4399d5ce61c92fd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a66ee740b75e49eb9afa4fd1f1853eb') in 0.0301735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2014-08-01.png
+  artifactKey: Guid(f95282a41f1834241845150cd3ead71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2014-08-01.png using Guid(f95282a41f1834241845150cd3ead71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a65bb4a7b34c86136620e4fa129ae4fd') in 0.027553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-02-01.png
+  artifactKey: Guid(eded19d9f5b005245926143762dc3b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-02-01.png using Guid(eded19d9f5b005245926143762dc3b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3585038b7b16f4d53c099e87832bb664') in 0.0239315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2007-10-01.png
+  artifactKey: Guid(ef6382366da27ca45b6db6941e8e187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2007-10-01.png using Guid(ef6382366da27ca45b6db6941e8e187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c0f80a9fc837f9117cabf4cbeb10589') in 0.0268984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2010-12-01.png
+  artifactKey: Guid(5a405cb2d498aea49b5a55feea1dad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2010-12-01.png using Guid(5a405cb2d498aea49b5a55feea1dad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe82fbc05ff235a375fe8046fc131f64') in 0.0271537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2016-01-01.png
+  artifactKey: Guid(a39e045d71e4fdd43a0518631497b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2016-01-01.png using Guid(a39e045d71e4fdd43a0518631497b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6c595ffe22e8f317e7b8f29712c082b') in 0.026159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2015-05-01.png
+  artifactKey: Guid(c66d535211cfb1d4982a815de570913a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2015-05-01.png using Guid(c66d535211cfb1d4982a815de570913a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbfce7046e400c95ed583d77378e5068') in 0.02537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-08-01.png
+  artifactKey: Guid(ad7609e05fb9226498b6f8556b8152e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-08-01.png using Guid(ad7609e05fb9226498b6f8556b8152e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2227744ad76d1d54a3253d94fa4de88') in 0.0288553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2013-10-01.png
+  artifactKey: Guid(9bf0420691724e347b9e929d78d53531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2013-10-01.png using Guid(9bf0420691724e347b9e929d78d53531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '424b6a03d8c448a990c3719e05f70bb3') in 0.0265572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/LARGE_bloom_maps/bloom_2008-01-01.png
+  artifactKey: Guid(347edbd369b77a643a29c44ad5091422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LARGE_bloom_maps/bloom_2008-01-01.png using Guid(347edbd369b77a643a29c44ad5091422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11c526228a2dd732338dfd599135e3e9') in 0.0240254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6478 unused Assets / (4.7 MB). Loaded Objects now: 7209.
+Memory consumption went from 143.8 MB to 139.1 MB.
+Total: 9.525300 ms (FindLiveObjects: 0.668100 ms CreateObjectMapping: 0.610400 ms MarkObjects: 5.927000 ms  DeleteObjects: 2.318600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 1533ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6485 unused Assets / (6.4 MB). Loaded Objects now: 7224.
+Memory consumption went from 150.0 MB to 143.6 MB.
+Total: 9.469900 ms (FindLiveObjects: 0.791400 ms CreateObjectMapping: 0.367100 ms MarkObjects: 5.000100 ms  DeleteObjects: 3.310400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
